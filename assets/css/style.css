@@ -1,7 +1,9 @@
 body {
     margin: 0px auto;
-    background: 
+    background-image: url(/assets/images/download.jpg);
 }
+
+
 .header {
    color: #ffffff;
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,6 +59,7 @@ a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     margin: 20px 40px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .story {
@@ -70,6 +73,7 @@ a:hover {
     height: 150px;
     float: left;
     margin-right: 25px;
+    border: 1px solid #dddddd;
 }
 
 .footer {
@@ -88,5 +92,16 @@ a:hover {
     color: #ffffff;
 }
 
+.box input {
+    width: 99%;
+}
 
-
+input[type=submit] {
+    width: 100px;
+    height: 35px;
+    color: #ffffff;
+    background: #4aaaa5;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
