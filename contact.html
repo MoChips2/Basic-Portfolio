@@ -8,6 +8,7 @@
 
 
 <body>
+    <!--background image would not render-->
 
     <div class="header">  <!--color #ffffff-->
         <div class="name">
@@ -35,8 +36,10 @@
             <input type="text" name="email" value="godfather@email.com"><br> <!--Potential copyright issues?-->
             
             Message:<br>
-            <input type="text" name="message"><br>
-            
+            <div id="message">
+                <input type="text" name="message"><br>
+            </div>
+
             <input type="submit" value="Submit">
             
         </form>
