@@ -1,12 +1,13 @@
 body {
     margin: 0px auto;
+    background: 
 }
 .header {
    color: #ffffff;
    font-family: Georgia, 'Times New Roman', Times, serif;
    top: 0px;
    padding: 10px;
-   background: yellow;
+   background: #ffffff;
    border-bottom: 1px solid #cccccc;
 }
 
@@ -23,25 +24,19 @@ body {
     width: 960px;
     margin: 35px 195px 50px 195px;
     display: inline-block;
-    background: #752b2b;
-    border: #dddddd;
+    background: #ffffff;
+    border: 1px solid #dddddd;
 }
 
 ul {
     position: relative;
-    right: 14%;
+    right: 185px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
-    border-right: 1px solid black;
-
-    
-}
-li:last-child {border-right: none;}
 li a {
     background: #ffffff;
     float: right;
@@ -49,7 +44,7 @@ li a {
     top: 0px;
     padding: 18px 16px;
     margin-bottom: 0px 10px;
-    color: black;
+    color: #777777;
     text-decoration: none;
 
 }
@@ -70,7 +65,7 @@ a:hover {
     margin: 40px;
 }
 
-img {
+#portrait {
     width: 200px;
     height: 150px;
     float: left;
@@ -79,13 +74,12 @@ img {
 
 .footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
+    position: fixed;
     background-color: #666666; 
     padding: 12px;
-    bottom: -16px;
+    bottom: 0px;
     border-top: 7px solid #4aaaa5;
-    margin-right: 0px;
-    margin-left: 0px;
+    width: 100%;
 }
 
 .copyright {
@@ -93,4 +87,6 @@ img {
     font-size: 10px;
     color: #ffffff;
 }
+
+
 
